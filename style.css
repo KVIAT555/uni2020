@@ -1,0 +1,155 @@
+@import "resets.css";
+
+
+body {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.6;
+    min-width: 1210px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+
+/* container
+========================= */
+
+.container {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+
+
+
+/* header
+============================ */
+
+.header {
+    background: url(images/1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.header__iner {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 170px;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+/*  header__text*/
+
+.header__text {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: #fff;
+
+    margin-bottom: 60px;
+}
+
+
+/* buton */
+
+.buton {
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #fff;
+    padding-top: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s;
+
+    padding: 10px 30px;
+}
+
+.buton:hover {
+    color: black;
+    font-size: 17px;
+    background: #fff;
+}
+
+
+
+
+
+
+.about {
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+
+.about h2 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.about_text {
+    margin-left: 200px;
+    text-align: center;
+    font-size: 17px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+.countrys {
+    text-align: center;
+}
+
+
+
+.countrys_inner {}
+
+
+
+.countrys_item {}
+
+
+.countrys_img {
+    width: 1000px;
+    height: 500px;
+}
+
+
+.countrys_item h4 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.countrys_about {
+    margin-left: 200px;
+    text-align: center;
+    width: 800px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
